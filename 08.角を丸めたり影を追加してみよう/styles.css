@@ -4,29 +4,35 @@ body {
   flex-direction: column;
   margin: auto;
 }
+/* header要素にスタイルを適用 */
 
 header {
-  background-color: #192F60;
+  background-color: #192f60;
   color: white;
   margin-top: 10px;
+  border-radius: 20px 20px 0px 0px;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
   margin: 0;
   padding: 10px 0;
 }
+/* div要素にスタイルを適用 */
 
 div {
   display: flex;
-  background-color: #FAC559;
+  background-color: #fac559;
   height: 160px;
+  border-radius: 0 0 20px 20px;
 }
 
 ul {
   padding: 0;
-  margin:12px 0;
+  margin: 12px 0;
 }
+/* li要素にスタイルを適用 */
 
 li {
   list-style: none;
@@ -34,17 +40,14 @@ li {
   width: 244px;
   padding: 2px 8px 2px 2px;
   margin: 4px 10px 4px 0;
+  border-color: #192f60;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
 }
+/* main要素内にスタイルを適用 */
 
 main {
   width: auto;
+  overflow: auto;
 }
-
-
-/* li要素にスタイルを適用 */
-
-/* header要素にスタイルを適用 */
-
-/* div要素にスタイルを適用 */
-
-/* main要素内にスタイルを適用 */
